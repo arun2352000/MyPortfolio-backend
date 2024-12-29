@@ -17,12 +17,13 @@ const contactSchema = new mongoose.Schema(
 
                 },
                 phone: {
-                    type: String
-                    // required: true
+                    type: String,
+                    required: true
                 },
                 message:{
-                    type:String
-                }
+                    type:String,
+                    required:true,
+               }
     }
 );
 const CONTACT = mongoose.model('CONTACT', contactSchema);

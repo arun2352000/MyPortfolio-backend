@@ -1,7 +1,7 @@
-import { createContact } from "../Controllers/product.controllers.js";
+import { createQuery } from "../Controllers/product.controllers.js";
 import express from 'express'
 
 const router = express.Router()
-router.post('/createcontact', createContact)
+router.post('/createQuery', createQuery)
 
 export default router;
