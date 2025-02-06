@@ -1,6 +1,8 @@
 import nodemailer from "nodemailer"
 import dotenv from "dotenv"
 
+dotenv.config();
+
 const sendEmail = async options => {
     const transport = {
         service:"gmail",
