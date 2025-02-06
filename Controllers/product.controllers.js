@@ -17,7 +17,7 @@ export const createQuery = async(req,res) =>{
         })
 
         sendEmail({
-            email:"arunachalam235200@gmail.com",
+            email:"arunachalam2352000@gmail.com",
             subject: `person tried contacting ${name}`,
             message: message2
         })
